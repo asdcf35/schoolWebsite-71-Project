@@ -1,0 +1,65 @@
+#contact_iframe{
+    width:100%;
+}
+.contact_1 h3{
+    display: inline;
+}
+.contact_1 a{
+    text-shadow: none;
+}
+.campus_life_mainDiv{
+    border: 1px solid #c7c7c7;
+    padding-left:0px;
+    padding-right:0px;
+    float: none;
+} 
+.campus_life_mainDiv img{
+    width: 100%
+}
+.campus_life_mainDiv hr{
+    width: 230px;
+}
+.campus_life_mainDiv h5,.campus_life_mainDiv p{
+    margin-left: 20px;
+}
+.achievements_head{
+    font-size: 20px;
+    padding: 6px 22px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    width: 100%;
+    display: inline-block;    
+}
+.achievements_head i{
+    float: right;
+}
+.achievements_text span{
+    color: darkorange;
+}
+.flexer{
+    display: inline-flex;
+}
+.details{
+    display: flex;
+}
+
+.contact_1{
+    display: flex;
+    flex-direction: column;
+/*    align-content: flex-start;*/
+    font-size: 62.5%;
+    width: 50%;
+    height: 100%;
+    
+}
+.details > img{
+    width: 45vh;
+    height: 45vh;
+    margin-left: 10vh;
+}
+.contact_1 > *{
+    text-align: left;
+}
+.contact_1 > a{
+ height: 2.7rem;   
+}
